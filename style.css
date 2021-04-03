@@ -397,3 +397,26 @@ nav {
   text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+/*
+===============scroll-bar===============
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cececa;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-gold);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-primary-9);
+}
